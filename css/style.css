@@ -14,8 +14,8 @@
 
 	body
 	{
-		background-color:		#183026;
-		background-image:		url('images/overlay.png'),			url('../images/bg.jpg');
+		background-color:		#000000;
+		background-image:		url('images/overlay.png'),			url('../images/bg3.jpg');
 		background-repeat:		repeat,								no-repeat;
 		background-size:		auto,								cover;
 		background-position: 	top left,							center 0;
@@ -91,7 +91,7 @@
 
 	a
 	{
-		color: #35b88f;
+		color: #000000;
 		text-shadow: 0 0 0.5px rgba(53,184,143,0.25);
 		-moz-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
 		-webkit-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
@@ -488,7 +488,7 @@
 			position: relative;
 			display: inline-block;
 			border: 0;
-			background: #35b88f;
+			background: #000000;
 			color: #fff;
 			text-shadow: 0 0 0.5px rgba(255,255,255,0.25);
 			cursor: pointer;
@@ -519,8 +519,8 @@
 			.button.style2
 			{
 				color: #3a3939;
-				background: #fff;
-				box-shadow: inset 0 0 0 1px #fff;
+				background: #000;
+				box-shadow: inset 0 0 0 1px #000;
 			}
 
 				input[type="button"].style2:hover,
@@ -529,7 +529,7 @@
 				.button.style2:hover
 				{
 					background: rgba(255,255,255,0.1);
-					color: #fff !important;
+					color: #000 !important;
 					text-shadow: 0 0 0.5px rgba(255,255,255,0.25) !important;
 				}
 				
@@ -540,7 +540,7 @@
 			{
 				background: none;
 				color: #3a3939;
-				box-shadow: inset 0 0 0 1px #dad9d9;
+				box-shadow: inset 0 0 0 1px #000000;
 			}
 			
 				input[type="button"].style3:hover,
@@ -568,7 +568,7 @@
 				top: -9em;
 				left: 50%;
 				height: 9em;
-				border-left: solid 1px #fff;
+				border-left: solid 1px transparent;
 			}
 		
 			.box:before
@@ -592,7 +592,7 @@
 		
 			.box.style1
 			{
-				background: #fff;
+				background: transparent;
 				padding: 3em;
 			}
 			
@@ -696,7 +696,7 @@
 						top: 0;
 						left: 50%;
 						height: 100%;
-						border-left: solid 1px #fff;
+						border-left: solid 1px transparent;
 					}
 					
 					.box.style2 .inner .row
@@ -716,7 +716,7 @@
 							width: -o-calc(100% - 40px);
 							width: -ms-calc(100% - 40px);
 							width: calc(100% - 40px);
-							border-bottom: solid 1px #fff;
+							border-bottom: solid 1px transparent;
 						}
 
 					.box.style2 .inner .image
@@ -852,7 +852,7 @@
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255,255,255,0.25);
 		text-align: center;
-		background: #35b88f url('') bottom center no-repeat;
+		background: #000000 url('') bottom center no-repeat;
 		padding: 5em 0 5em 0;
 		margin: 0;
 		background-size: 125% auto;
@@ -930,7 +930,7 @@
 		
 			#footer a:hover
 			{
-				color: #35b88f;
+				color: #000000;
 				text-shadow: 0 0 0.5px rgba(69,200,159,0.25);
 				border-bottom-color: rgba(53,184,143,0.5);
 			}
