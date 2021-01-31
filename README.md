@@ -1,3 +1,3 @@
 ## Little piece of beauty in modern routine.
 
-School project made with Github pages.
+School project made with Github pages (2015)
